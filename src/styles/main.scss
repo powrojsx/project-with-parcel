@@ -1,3 +1,10 @@
+@import 'utils/variables';
+@import 'utils/colors';
+@import 'utils/text';
+
+@import 'header';
+@import 'footer';
+
 * {
   margin: 0;
   padding: 0;
@@ -5,8 +12,19 @@
 }
 
 body {
-  font-family: sans-serif;
-  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #333333;
+  line-height: 1.5;
+}
+
+h1,
+h2 {
+  margin-bottom: 1rem;
+}
+
+.container {
+  width: 100%;
+  max-width: $container-width;
+  margin: 0 auto;
   padding: 1rem;
-  font-size: 2rem;
 }
