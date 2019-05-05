@@ -24,9 +24,13 @@
 }
 
 .navigation {
-  list-style-type: none;
-  display: flex;
-  justify-content: flex-end;
+  width: 100%;
+
+  &__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+  }
 
   &__item {
     display: block;
